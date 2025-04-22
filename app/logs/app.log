@@ -1,0 +1,3 @@
+2025-04-22 22:20:23,506 - todo_app.app.db - INFO - /home/vladimir/PycharmProjects/ToDoFastAPI/app/db.py:27 - Пул соединений создан: host=localhost, db=todo
+2025-04-22 22:20:23,508 - todo_app - INFO - /home/vladimir/PycharmProjects/ToDoFastAPI/app/test.py:12 - Результат запроса: [<Record ?column?=1>]
+2025-04-22 22:20:23,514 - todo_app.app.db - INFO - /home/vladimir/PycharmProjects/ToDoFastAPI/app/db.py:49 - Пул соединений закрыт: host=localhost, db=todo
