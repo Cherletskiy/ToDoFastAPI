@@ -1,8 +1,8 @@
-CREATE TABLE tasks (
+CREATE TABLE IF NOT EXISTS tasks (
     id SERIAL PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
     description TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     due_date TIMESTAMP,
-    is_completed BOOLEAN DEFAULT FALSE
+    status VARCHAR(50) NOT NULL DEFAULT 'pending'
 );
