@@ -1,5 +1,4 @@
 from typing import List, Dict, Any, Optional
-from asyncpg import Connection
 from app.db import get_connection
 from app.logging_config import get_logger
 from datetime import datetime
